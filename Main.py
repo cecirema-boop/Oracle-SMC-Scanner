@@ -7,8 +7,8 @@ import yfinance as yf
 from datetime import datetime
 
 # --- CONFIGURATION ---
-TOKEN = os.getenv("TELEGRAM_TOKEN")
-CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
+TOKEN = os.getenv("8528535959:AAE1Sd8LNh_wb1aKYA77yGT9TmmSY80Dems")
+CHAT_ID = os.getenv("8716056233")
 SYMBOLS = ["NAS100", "NQ=F", "GC=F", "^DJI"] # NAS100, Gold, US30
 
 def send_signal(msg):
